@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Wordle by majkeloess</title>
+      <link rel="stylesheet" href="style.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100;200;300;400;500;600;700;800&display=swap"
+            rel="stylesheet">
+</head>
+
+<body>
+      <section class="header">
+            <h1>Wordle by majkeloess</h1>
+            <p class="testing"></p>
+      </section>
+      <section class="play-area">
+            <div class="letter"></div>
+            <div class="letter"></div>
+            <div class="letter"></div>
+            <div class="letter"></div>
+            <div class="letter"></div>
+            <div class="letter"></div>
+            <div class="letter"></div>
+            <div class="letter"></div>
+            <div class="letter"></div>
+            <div class="letter"></div>
+            <div class="letter"></div>
+            <div class="letter"></div>
+            <div class="letter"></div>
+            <div class="letter"></div>
+            <div class="letter"></div>
+            <div class="letter"></div>
+            <div class="letter"></div>
+            <div class="letter"></div>
+            <div class="letter"></div>
+            <div class="letter"></div>
+            <div class="letter"></div>
+            <div class="letter"></div>
+            <div class="letter"></div>
+            <div class="letter"></div>
+            <div class="letter"></div>
+            <div class="letter"></div>
+            <div class="letter"></div>
+            <div class="letter"></div>
+            <div class="letter"></div>
+            <div class="letter"></div>
+      </section>
+      <section class="instruction">
+            <ul>
+                  <li>
+                        <span class="bold">Enter a 5-letter word.</span>
+                        You'll have 6 chances to guess the 5-letter word of the day, so make every guess count! Try
+                        using a word that contains many different letters to narrow down your future guesses. Type your
+                        first guess, and then press or click Enter to see if you've matched any letters.
+                  </li>
+                  <li>
+                        <span class="bold">Check the tile color.</span>
+                        After you make a guess, the tile colors will change:
+                        A <span class="good">green</span> tile indicates that you've guessed the correct letter in the
+                        correct place in the word.
+                        A <span class="not-in-place">yellow</span> tile means you've guessed a letter that's in the
+                        word, but not in the right spot.
+                        A <span class="bad">gray</span> tile means that letter is not in today's word.
+                  </li>
+                  <li>
+                        <span class="bold">Guess another word.</span>
+                        Use the clues you got from your first guess to try again. Remember, don't reuse any of the <span
+                              class="bad">gray</span>
+                        letters, as they are definitely not in today's Wordle.
+                        If you correctly guessed a letter at the correct position (a <span class="good">green</span>
+                        tile), make sure to use that
+                        letter at that position in your second guess.
+                        Letters can appear more than once in the same word.
+                  </li>
+                  <li>
+                        <span class="bold">Continue entering your guesses until all letters are <span
+                                    class="good">green</span></span>
+                        When you've correctly guessed the word, you'll see a pop-up window.
+                  </li>
+            </ul>
+
+      </section>
+      <script src="./newEngine.js" type="module"></script>
+</body>
+
+</html>
